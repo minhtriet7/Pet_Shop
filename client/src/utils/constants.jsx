@@ -5,7 +5,7 @@ export const navigation = [
     id: 1,
     value: "Chó",
     path: `/${path.ALL_PRODUCTS}/cho`,
-    type: "mega", // Đánh dấu đây là Menu khổng lồ
+    type: "mega",
     subMenu: [
       {
         title: "Thức Ăn Cho Chó",
@@ -68,7 +68,7 @@ export const navigation = [
     id: 2,
     value: "Mèo",
     path: `/${path.ALL_PRODUCTS}/meo`,
-    type: "mega", // Đánh dấu đây là Menu khổng lồ
+    type: "mega",
     subMenu: [
       {
         title: "Thức Ăn Cho Mèo",
@@ -100,8 +100,8 @@ export const navigation = [
   {
     id: 3,
     value: "Thiết bị thông minh",
-    path: `/${path.ALL_PRODUCTS}/thiet-bi-thong-minh`, // Đã đồng bộ
-    type: "dropdown", // Đánh dấu đây là Menu nhỏ gọn (Sổ thẳng xuống)
+    path: `/${path.ALL_PRODUCTS}/thiet-bi-thong-minh`,
+    type: "dropdown",
     subMenu: [
       {
         items: [
@@ -112,13 +112,14 @@ export const navigation = [
       },
     ],
   },
-  { id: 4, value: "Hàng mới về", path: `/${path.ALL_PRODUCTS}/hang-moi-ve` }, // Đã đồng bộ
-  { id: 5, value: "Thương hiệu", path: `/${path.ALL_PRODUCTS}/thuong-hieu` }, // Đã đồng bộ
-  { id: 6, value: "Petcare", path: `/${path.ALL_PRODUCTS}/Petcare` },
-  { id: 7, value: "News", path: `/${path.ALL_PRODUCTS}/News` },
+  { id: 4, value: "Hàng mới về", path: `/${path.ALL_PRODUCTS}/hang-moi-ve` },
+  { id: 5, value: "Thương hiệu", path: `/${path.ALL_PRODUCTS}/thuong-hieu` },
+ { id: 6, value: "Petcare", path: `/petcare` },
+  { id: 7, value: "News", path: `/news` },
+
   {
     id: 8,
     value: "Khuyến Mãi Mới Nhất",
     path: `/${path.ALL_PRODUCTS}/khuyen-mai`,
-  }, // Đã đồng bộ
+  },
 ];
